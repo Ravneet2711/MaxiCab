@@ -33,6 +33,7 @@
   }
   .home {
     height: 100vh;
+    background-position: 26% 25%;
   }
   input {
     height: 1em !important;
