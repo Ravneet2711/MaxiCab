@@ -47,4 +47,4 @@ Your app is ready to be deployed!
 - useContext is used for complex state management.
 - React Router is used to make the React SPA (single page applications).
 - Material UI is used to make Form.
-- React Bootrap is used in making Navbar.
+- React Bootsrap is used in making Navbar.
