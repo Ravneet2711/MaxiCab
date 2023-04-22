@@ -17,6 +17,7 @@ label#outlined-required-label {
   background: white;
   border-radius: 10px;
 }
+
 button {
   cursor: pointer;
   border: none;

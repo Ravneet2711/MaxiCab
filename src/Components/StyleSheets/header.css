@@ -2,7 +2,16 @@
   width: 50%;
   max-width: 100%;
 }
-
+.menu-toggle {
+  width: 0;
+  border: none;
+}
+.menu-toggle:focus {
+  outline: none;
+}
+.menu-toggle:hover {
+  border: none;
+}
 .nav_link {
   color: #fff;
   font-weight: 600;
@@ -31,12 +40,10 @@
     padding: 16px 0 16px 6px;
     margin-left: 0;
   }
-  .menu-toggle {
-    width: 12%;
-  }
+
   .nav-logo {
     width: 50%;
-    text-align: center;
+    text-align: right;
   }
 }
 @media (max-width: 765px) {
