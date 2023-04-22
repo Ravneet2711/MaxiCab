@@ -1,0 +1,40 @@
+.home {
+  width: 100%;
+  background-image: url(../../assets/bg_img.webp);
+  height: 45rem;
+  position: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.user-form {
+  width: 150%;
+  max-width: 550px;
+  margin-right: auto;
+  padding-left: 120px;
+  padding-top: 50px;
+}
+@media (max-width: 768px) {
+  .user-form {
+    width: 100%;
+    max-width: 450px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .user-form {
+    width: 100%;
+    max-width: 300px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  input {
+    height: 1em !important;
+  }
+  .input-field {
+    margin-bottom: 20px;
+  }
+}

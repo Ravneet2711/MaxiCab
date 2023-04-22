@@ -1,0 +1,30 @@
+.footer-container {
+  background-color: #4c74b9;
+  position: absolute;
+  width: 100%;
+  /* bottom: 0; */
+}
+
+.inner-container {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.inner-container a {
+  color: #b5b5b5;
+  text-align: right;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.inner-container a:hover {
+  color: #ffc000;
+}
+
+@media (max-width: 575px) {
+  .inner-container a {
+    text-align: center;
+  }
+}
