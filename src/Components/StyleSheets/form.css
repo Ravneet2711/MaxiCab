@@ -71,3 +71,6 @@ input::-internal-datetime-container {
   border-radius: 6px;
   margin-right: 20px;
 }
+.trip-btn:last-child {
+  margin-right: 0px;
+}
